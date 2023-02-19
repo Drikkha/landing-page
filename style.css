@@ -1,0 +1,138 @@
+.main-image{
+    height: 250px;
+    width: auto;
+    align-self: center;
+    margin: 40px;
+    margin-right: 0px;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.header{
+    display: flex;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    color: white;
+}
+
+.header-logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.title{
+    display: flex;
+    gap: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: #1f2937;
+    color: white;
+    align-items: center;
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+.title .main-title{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+    margin: 0px;
+}
+
+img{
+    width: 150px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-one, .img-two, .img-three, .img-four{
+    text-align: center;
+    padding: 30px;
+    max-width: 150px;
+}
+
+.inspiring-quote{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 400px;
+}
+
+.quote{
+    font-size: 32px;
+    font-family: light italic;
+    color: #1f2937;
+}
+
+.sign{
+    display: flex;
+    align-self: flex-end;
+}
+
+.call-to-action{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 30px;
+    gap: 200px;
+    color: white;
+}
+
+button{
+    color: white;
+    background-color: #3882f6;
+    border-color: #3882f6;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #1f2937;
+    color: white;
+}
+
+#bot-button{
+    border-color: white;
+}
